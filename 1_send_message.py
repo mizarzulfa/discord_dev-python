@@ -1,5 +1,5 @@
 import discord
-from privateToken import myToken
+from auth.privateToken import myToken
 
 
 class MyClient(discord.Client):
