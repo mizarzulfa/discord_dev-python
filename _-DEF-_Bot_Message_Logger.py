@@ -8,6 +8,7 @@ class MyClient(discord.Client):
 
     async def on_message(self, message):
         print(f'Message from {message.author}: {message.content}')
+        print(str(message.content))  # string value
 
 
 intents = discord.Intents.default()

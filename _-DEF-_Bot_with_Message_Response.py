@@ -14,6 +14,8 @@ class MyClient(discord.Client):
         if message.content == 'hello':
             await message.channel.send('anjay')
 
+        await message.channel.send('uhuy')
+
 
 intents = discord.Intents.default()
 intents.message_content = True
